@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сайт специалиста по нейросетям</title>
+  <meta http-equiv="refresh" content="0; url=./Калькулятор.html" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #f4f7fb 0%, #eef3ff 100%);
+      color: #1f2937;
+    }
+
+    .card {
+      max-width: 420px;
+      text-align: center;
+      padding: 28px 24px;
+      background: #ffffff;
+      border-radius: 20px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 12px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    .card p {
+      margin: 0 0 20px;
+      font-size: 15px;
+      line-height: 1.55;
+      color: #475569;
+    }
+
+    /* Кнопка-ссылка: базово тёмный фон #1d4241, белый текст, обводка #1d4241 */
+    .btn,
+    .btn:visited {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 22px;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #1d4241;
+      border: 2px solid #1d4241;
+      outline: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition:
+        background 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.1s ease,
+        box-shadow 0.25s ease;
+      box-shadow: 0 4px 14px rgba(29, 66, 65, 0.25);
+    }
+
+    /*
+      Наведение только у мыши: контрастная пара в палитре калькулятора —
+      светлый мятный градиент (#d1fae5 → #99f6e4, как акценты) и почти чёрный
+      бирюзовый текст #042f2e на фоне основного тона #1d4241 в обводке.
+    */
+    @media (hover: hover) and (pointer: fine) {
+      .btn:hover,
+      .btn:visited:hover {
+        background: linear-gradient(180deg, #d1fae5 0%, #99f6e4 100%);
+        color: #042f2e;
+        border: 2px solid #1d4241;
+        border-color: #1d4241;
+        box-shadow:
+          0 0 0 1px rgba(153, 246, 228, 0.6),
+          0 8px 24px rgba(29, 66, 65, 0.28);
+      }
+
+      .btn:focus-visible:hover {
+        box-shadow:
+          0 0 0 3px rgba(29, 66, 65, 0.4),
+          0 0 0 1px rgba(153, 246, 228, 0.6),
+          0 8px 24px rgba(29, 66, 65, 0.28);
+      }
+    }
+
+    /* Нажатие: тот же контрастный светлый тон и тёмная надпись темы */
+    .btn:active {
+      background: linear-gradient(180deg, #d1fae5 0%, #99f6e4 100%);
+      color: #042f2e;
+      border: 2px solid #1d4241;
+      border-color: #1d4241;
+      transform: scale(0.98);
+      box-shadow: 0 2px 12px rgba(29, 66, 65, 0.32);
+    }
+
+    .btn:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(29, 66, 65, 0.35), 0 4px 14px rgba(29, 66, 65, 0.25);
+    }
+
+    .btn:focus-visible:active {
+      box-shadow: 0 0 0 3px rgba(29, 66, 65, 0.45), 0 2px 10px rgba(29, 66, 65, 0.28);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p>Если переход не выполнился автоматически, откройте сайт с калькулятором по кнопке ниже.</p>
+    <!-- Кнопка-ссылка: при наведении мыши — светлый мятный градиент, тёмная надпись #042f2e, рамка #1d4241 -->
+    <a class="btn" href="./Калькулятор.html">Перейти к калькулятору</a>
+  </div>
+</body>
+</html>
