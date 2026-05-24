@@ -142,7 +142,7 @@
     serviceType.querySelectorAll('option[data-opt-key]').forEach(function (opt) {
       const ok = opt.getAttribute('data-opt-key');
       const pack = optionPack(ok);
-      if (pack) opt.text = pack.title;
+      if (pack && pack.title) opt.textContent = pack.title;
     });
   }
 

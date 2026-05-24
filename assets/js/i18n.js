@@ -43,7 +43,7 @@ window.CALC_I18N = {
       projectComment: 'Например: нужно 3 часа консультации, 2 креатива и оформление Telegram-аккаунта'
     },
     helper: {
-      pickService: 'Выбери услугу, укажи количество и нажми кнопку «Добавить услугу в расчёт».',
+      pickService: 'Открой список «Выберите услугу»: блок «Вайбкодинг» идёт сразу после «Консультации». Выбери услугу, укажи количество и нажми «Добавить услугу в расчёт».',
       manualDiscount: 'Эта скидка применяется отдельно после автоматической скидки 10%, если она сработала.'
     },
     meta: { priceFormat: 'Формат цены', tariffType: 'Тип тарифа' },
@@ -164,7 +164,8 @@ window.CALC_I18N = {
       og_consult: 'Консультации',
       og_content: 'Контент и маркетинг',
       og_media: 'Мультимедиа и дизайн',
-      og_smm: 'Полное ведение соцсетей'
+      og_smm: 'Полное ведение соцсетей',
+      og_vibecoding: 'Вайбкодинг'
     },
     units: {
       fixed: 'услуга',
@@ -210,7 +211,12 @@ window.CALC_I18N = {
       opt_forms_pdf: { title: 'Создание анкет, опросников, PDF-презентаций по готовому тексту — от 2000 ₽', unitNote: 'Стартовая цена' },
       opt_hashtags: { title: 'Анализ и подбор целевых хештегов — от 800 ₽', unitNote: 'Стартовая цена' },
       opt_account_full: { title: 'Создание 1 аккаунта с нуля с полным комплексом услуг — 70 000 ₽', unitNote: 'Фиксированная цена' },
-      opt_smm_full: { title: 'Полное ведение 1 аккаунта любой соцсети — от 40 000 ₽', unitNote: 'Стартовая цена' }
+      opt_smm_full: { title: 'Полное ведение 1 аккаунта любой соцсети — от 40 000 ₽', unitNote: 'Стартовая цена' },
+      opt_vibe_bot_no_ai: { title: 'Чат-бот без ИИ (пошаговый сценарий) — от 10 000 ₽', unitNote: 'Стартовая цена (прайс Вайб-кодинг)' },
+      opt_vibe_bot_ai: { title: 'Чат-бот с ИИ (ассистент / консультант) — от 20 000 ₽', unitNote: 'Стартовая цена (прайс Вайб-кодинг)' },
+      opt_vibe_landing_1p: { title: 'Лендинг (1 страница) — от 10 000 ₽', unitNote: 'Стартовая цена (прайс Вайб-кодинг)' },
+      opt_vibe_site_multi: { title: 'Многостраничный сайт — от 50 000 ₽', unitNote: 'Стартовая цена (прайс Вайб-кодинг)' },
+      opt_vibe_mobile_app: { title: 'Мобильное приложение — от 75 000 ₽', unitNote: 'Стартовая цена (прайс Вайб-кодинг)' }
     }
   },
   en: {
@@ -253,7 +259,7 @@ window.CALC_I18N = {
       projectComment: 'e.g. 3 hours of consulting, 2 ad creatives, Telegram profile design'
     },
     helper: {
-      pickService: 'Select a service, set quantity, then click “Add service to estimate”.',
+      pickService: 'Open the «Choose a service» list: the «Vibecoding» group is right after «Consultations». Pick a service, set quantity, then click “Add service to estimate”.',
       manualDiscount: 'This discount applies separately after the automatic 10% discount when it triggers.'
     },
     meta: { priceFormat: 'Pricing format', tariffType: 'Rate type' },
@@ -374,7 +380,8 @@ window.CALC_I18N = {
       og_consult: 'Consultations',
       og_content: 'Content & marketing',
       og_media: 'Media & design',
-      og_smm: 'Full social media management'
+      og_smm: 'Full social media management',
+      og_vibecoding: 'Vibecoding'
     },
     units: {
       fixed: 'service',
@@ -420,7 +427,12 @@ window.CALC_I18N = {
       opt_forms_pdf: { title: 'Forms, surveys, PDF decks from your text — from 2,000 ₽', unitNote: 'Starting price' },
       opt_hashtags: { title: 'Hashtag research — from 800 ₽', unitNote: 'Starting price' },
       opt_account_full: { title: 'New account from scratch (full bundle) — 70,000 ₽', unitNote: 'Fixed price' },
-      opt_smm_full: { title: 'Full management of one social account — from 40,000 ₽', unitNote: 'Starting price' }
+      opt_smm_full: { title: 'Full management of one social account — from 40,000 ₽', unitNote: 'Starting price' },
+      opt_vibe_bot_no_ai: { title: 'Chatbot without AI (step-by-step flow) — from 10,000 ₽', unitNote: 'Starting price (Vibecoding rate card)' },
+      opt_vibe_bot_ai: { title: 'AI chatbot (assistant / consultant) — from 20,000 ₽', unitNote: 'Starting price (Vibecoding rate card)' },
+      opt_vibe_landing_1p: { title: 'One-page landing — from 10,000 ₽', unitNote: 'Starting price (Vibecoding rate card)' },
+      opt_vibe_site_multi: { title: 'Multi-page website — from 50,000 ₽', unitNote: 'Starting price (Vibecoding rate card)' },
+      opt_vibe_mobile_app: { title: 'Mobile app — from 75,000 ₽', unitNote: 'Starting price (Vibecoding rate card)' }
     }
   }
 };
